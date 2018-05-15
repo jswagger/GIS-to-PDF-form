@@ -54,7 +54,7 @@ def process_each_record(data, domains, pdftemplate):
 def main():
     db_connection = "C:\\Users\\jswagger\\Desktop\\GIS-to-PDF-form\\Example.gdb"
     fc_name = "Example_Trees"
-    pdf_template = "C:\\Users\\jswagger\\Desktop\\GIS-to-PDF-form\\example_template.pdf"
+    pdf_template = "C:\\Users\\jswagger\\Desktop\\GIS-to-PDF-form\\example_template_revised.pdf"
     layer = get_layer(db_connection, fc_name)
     domains = get_domain_fields(layer)
     object_data = format_data_to_object(layer)
